@@ -1,0 +1,31 @@
+main function:
+demo_CD_detection_comparison.m 
+compare concept drift detection using different methods (in one epoch)
+
+demon_histogram_comparison
+compare concept drift detection using different methods (in multiple epoches)
+
+key function for each method:
+1. LFR_detection.m
+implement LFR algorithm
+
+2. LFR_permutation_detection.m and permutation_test.m
+implement HLFR algorithm
+
+3. STEPD_detection.m and prop_test.m
+implement STEPD algorithm
+
+4. DDM_detection.m
+implement DDM algorithm
+
+5. EDDM detection.m
+implement EDDM algorithm
+
+6. DDM_OCI_detection.m
+implement DDM_OCI algorithm
+
+If you use the code, please cite the following papers:
+[1] Shujian Yu, and Zubin Abraham. "Concept drift detection with hierarchical hypothesis testing." 
+In Proceedings of the 2017 SIAM International Conference on Data Mining, pp. 768-776.
+[2] Shujian Yu, Zubin Abraham, Heng Wang, Mohak Shah, Yantao Wei, and José C. Príncipe. "Concept drift detection and adaptation with hierarchical hypothesis testing." 
+Journal of the Franklin Institute 356, no. 5 (2019): 3187-3215.
